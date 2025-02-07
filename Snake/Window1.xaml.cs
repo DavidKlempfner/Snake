@@ -59,7 +59,7 @@ namespace Snake
 
             //send fake email
             SmtpMail.SmtpServer = "mail.optusnet.com.au";
-            SmtpMail.Send("Kristina.Keneally@nsw.gov.au", "katelyn.rowsell@hotmail.com", "Message From The Premier", "hey k8lz its the ex-premier here whatsup ?!?");
+            SmtpMail.Send("email1@nsw.gov.au", "email2@hotmail.com", "Message From Someone", "Hello");
         }
         #endregion
 
